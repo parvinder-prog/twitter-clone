@@ -28,43 +28,43 @@
                 </div>
                 <ul class="flex flex-col text-23xl space-y-3 px-2 md:px-11 font-bold">
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl px-5 py-2">
+                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl md:px-5 py-2">
                         <span class="material-symbols-outlined" style="font-size: 36px;">home</span><span
                             class="hidden md:block">Home</span>
                     </li>
                     <li
-                        class="flex items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl px-5 py-2">
+                        class="flex items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl md:px-5 py-2">
                         <span class="material-symbols-outlined" style="font-size: 36px;">search</span><span
                             class="hidden md:block">Explore</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl px-5 py-2">
+                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl md:px-5 py-2">
                         <span class="material-symbols-outlined"
                             style="font-size: 36px;">circle_notifications</span><span
                             class="hidden md:block">Notifications</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl px-5 py-2">
+                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl md:px-5 py-2">
                         <span class="material-symbols-outlined" style="font-size: 36px;">Group</span><span
                             class="hidden md:block">Communities</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl px-5 py-2">
+                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl md:px-5 py-2">
                         <span class="material-symbols-outlined" style="font-size: 36px;">Diamond</span><span
                             class="hidden md:block">Premium</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl px-5 py-2">
-                        <span class="material-symbols-outlined" style="font-size: 36px;">verified</span><span
+                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl md:px-5 py-2">
+                        <span class="material-symbols-outlined" style="font-size: 30px;">verified</span><span
                             class="hidden md:block">Verified Orgs</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl px-5 py-2">
+                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl md:px-5 py-2">
                         <span class="material-symbols-outlined" style="font-size: 36px;">person</span><span
                             class="hidden md:block">Profile</span>
                     </li>
                     <li
-                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl px-5 py-2">
+                        class="flex justify-start items-center gap-3 w-fit hover:cursor-pointer hover:bg-gray-900 hover:rounded-3xl md:px-5 py-2">
                         <span class="material-symbols-outlined" style="font-size: 36px;">pending</span><span
                             class="hidden md:block">More</span>
                     </li>
@@ -85,7 +85,7 @@
         </div>
 
         <!-- Middle Section -->
-        <div class="second md:w-full border-[1px] border-x-gray-600 border-y-black">
+        <div class="second border-[1px] border-x-gray-600 border-y-black w-[80%] md:w-[90%] overflow-hidden md:overflow-visible">
             <div class="top flex p-3 sticky top-0 bg-black backdrop-blur-3xl opacity-70">
                 <div class="absolute w-16 h-1 bg-blue-500 bottom-0 left-[19%] z-10"></div>
                 <div class="left w-1/2 flex justify-center font-bold text-lg">For you</div>
@@ -120,7 +120,7 @@
                         class="material-symbols-outlined text-[#209AED] p-2 hover:cursor-pointer hover:bg-[#CCE7F6] hover:rounded-full">calendar_clock</span>
                 </div>
 
-                <div class="btn mr-5">
+                <div class="btn mr-5 hidden md:block">
                     <button
                         class="post bg-[#888B8F] w-full text-white px-5 py-2 rounded-full font-bold text-sm hover:bg-[#1a8cd8] transition duration-300">
                         Post
@@ -132,7 +132,7 @@
                 <!-- post 1  -->
                 <div class="post border-[1px] border-gray-600">
                     <div class="flex">
-                        <div class="media/creators-img">
+                        <div class="media/creators-img mr-3">
                             <img src="https://pbs.twimg.com/profile_images/1814341014108413952/HxMrxr4O_x96.jpg"
                                 alt="whatshapp" class="w-8 rounded-full m-4" />
                         </div>
@@ -141,16 +141,16 @@
                             <span class="font-bold text-white hover:underline hover:cursor-pointer">Devin AI News and
                                 Tools</span>
                             <span class="text-gray-500">@toolandtea · 17h</span>
-                            <div>🚨 This is insane… Fastest AI video creation tool in the world.</div>
+                            <div class="hidden md:block">🚨 This is insane… Fastest AI video creation tool in the world.</div>
                             <div>🚨 Here are demo : 👇.</div>
                             <div class="postimg m-4 ml-0">
-                                <video class="rounded-2xl" src="media/twitter-blue.mp4" controls autoplay loop muted></video>
+                                <video class="rounded-2xl w-8/9 sm:w-15/12 md:w-full max-w-full" src="media/twitter-blue.mp4" controls autoplay loop muted></video>
                             </div> <!--close postingimg div -->
 
-                            <div class="icons flex justify-between mx-3 text-gray-500">
+                            <div class="icons flex justify-between md:mx-3 text-gray-500">
                                 <div class="icon flex items-center gap-1">
                                     <span
-                                        class="material-symbols-outlined hover:text-[#209AED]  hover:cursor-pointer p-2 hover:bg-[#b5d6ed] hover:rounded-full">chat_bubble</span><span
+                                        class="material-symbols-outlined hover:text-[#209AED] hover:cursor-pointer md:p-2 hover:bg-[#b5d6ed] hover:rounded-full">chat_bubble</span><span
                                         class="hover:text-[#CCE7F6] hover:cursor-pointer">900</span>
                                 </div>
                                 <div class="icon flex items-center gap-1">
@@ -161,7 +161,7 @@
                                     <span
                                         class="material-symbols-outlined hover:text-[#d71b2a] hover:cursor-pointer p-2 hover:bg-[#ecc6c9] hover:rounded-full">favorite</span><span>15.6K</span>
                                 </div>
-                                <div class="icon flex items-center gap-1">
+                                <div class="icon items-center gap-1 hidden md:flex">
                                     <span
                                         class="material-symbols-outlined hover:text-[#209AED] hover:cursor-pointer p-2 hover:bg-[#b5d6ed] hover:rounded-full">bar_chart</span><span>23K</span>
                                 </div>
@@ -173,7 +173,7 @@
                 <!-- post 2 -->
                 <div class="post border-[1px] border-gray-600">
                     <div class="flex">
-                        <div class="media/creators-img">
+                        <div class="media/creators-img mr-3">
                             <img src="media/codex logo-Pica.png" alt="whatshapp" class="w-8 rounded-full m-4" />
                         </div>
 
@@ -183,10 +183,10 @@
                             <span class="text-gray-500">@creative.codex1· 5h</span>
                             <div>Be an insider, Stay ahead of the Solana launch. Join here 👇</div>
                             <div class="postimg m-4 ml-0">
-                                <video class="rounded-2xl" src="media/flip-cart.mp4" controls autoplay loop muted></video>
+                                <video class="rounded-2xl w-8/9 sm:w-10/12 md:w-full max-w-full" src="media/flip-cart.mp4" controls autoplay loop muted></video>
                             </div> <!--close postingimg div -->
 
-                            <div class="icons flex justify-between mx-3 text-gray-500">
+                            <div class="icons flex justify-between md:mx-3 text-gray-500">
                                 <div class="icon flex items-center gap-1">
                                     <span
                                         class="material-symbols-outlined hover:text-[#209AED]  hover:cursor-pointer p-2 hover:bg-[#b5d6ed] hover:rounded-full">chat_bubble</span><span
@@ -200,7 +200,7 @@
                                     <span
                                         class="material-symbols-outlined hover:text-[#d71b2a] hover:cursor-pointer p-2 hover:bg-[#ecc6c9] hover:rounded-full">favorite</span><span>15.6K</span>
                                 </div>
-                                <div class="icon flex items-center gap-1">
+                                <div class="icon items-center gap-1 hidden md:flex">
                                     <span
                                         class="material-symbols-outlined hover:text-[#209AED] hover:cursor-pointer p-2 hover:bg-[#b5d6ed] hover:rounded-full">bar_chart</span><span>23K</span>
                                 </div>
@@ -212,8 +212,8 @@
                 <!-- post 3  -->
                 <div class="post border-[1px] border-gray-600">
                     <div class="flex">
-                        <div class="media/creators-img">
-                            <img src="tech-bharat.png" alt="whatshapp" class="w-8 rounded-full m-4" />
+                        <div class="media/creators-img mr-3">
+                            <img src="media/tech-bharat.png" alt="whatshapp" class="w-8 rounded-full m-4" />
                         </div>
 
                         <div class="content m-3">
@@ -223,10 +223,10 @@
                             <div>TDouble the style, double the power ⌚🔥 |</div>
                             <div>Samsung Galaxy Watch8 & Watch8 Classic #samsung #tech</div>
                             <div class="postimg m-4 ml-0">
-                                <video class="rounded-2xl" src="media/watch-post.mp4" controls autoplay loop muted></video>
+                                <video class="rounded-2xl w-8/9 sm:w-10/12 md:w-full max-w-full" src="media/watch-post.mp4" controls autoplay loop muted></video>
                             </div> <!--close postingimg div -->
 
-                            <div class="icons flex justify-between mx-3 text-gray-500">
+                            <div class="icons flex justify-between md:mx-3 text-gray-500">
                                 <div class="icon flex items-center gap-1">
                                     <span
                                         class="material-symbols-outlined hover:text-[#209AED]  hover:cursor-pointer p-2 hover:bg-[#b5d6ed] hover:rounded-full">chat_bubble</span><span
@@ -240,7 +240,7 @@
                                     <span
                                         class="material-symbols-outlined hover:text-[#d71b2a] hover:cursor-pointer p-2 hover:bg-[#ecc6c9] hover:rounded-full">favorite</span><span>15.6K</span>
                                 </div>
-                                <div class="icon flex items-center gap-1">
+                                <div class="icon items-center gap-1 hidden md:flex">
                                     <span
                                         class="material-symbols-outlined hover:text-[#209AED] hover:cursor-pointer p-2 hover:bg-[#b5d6ed] hover:rounded-full">bar_chart</span><span>23K</span>
                                 </div>
@@ -251,9 +251,9 @@
             </div>
 
             <!-- post 4 -->
-            <div class="post max-[500px]:mb-[20vh]">
+            <div class="post ">
                 <div class="flex">
-                    <div class="media/creators-img">
+                    <div class="media/creators-img mr-3">
                         <img src="https://png.pngtree.com/png-vector/20231215/ourmid/pngtree-professional-boy-3d-cartoon-computer-office-elements-png-image_11364589.png"
                             alt="whatshapp" class="w-8 rounded-full m-4" />
                     </div>
@@ -263,10 +263,10 @@
                         <span class="text-gray-500">@ShishirShelke1 · 23h</span>
                         <div>As an android user, how often do you use split-screen feature?</div>
                         <div class="postimg m-4 ml-0">
-                            <img class="rounded-2xl" src="media/mobile-post.png" alt="">
+                            <img class="rounded-2xl w-8/9 sm:w-10/12 md:w-full max-w-full" src="media/mobile-post.png" alt="">
                         </div> <!--close postingimg div -->
 
-                        <div class="icons flex justify-between mx-3 text-gray-500">
+                        <div class="icons flex justify-between md:mx-3 text-gray-500">
                             <div class="icon flex items-center gap-1">
                                 <span
                                     class="material-symbols-outlined hover:text-[#209AED]  hover:cursor-pointer p-2 hover:bg-[#b5d6ed] hover:rounded-full">chat_bubble</span><span
@@ -280,7 +280,7 @@
                                 <span
                                     class="material-symbols-outlined hover:text-[#d71b2a] hover:cursor-pointer p-2 hover:bg-[#ecc6c9] hover:rounded-full">favorite</span><span>15.6K</span>
                             </div>
-                            <div class="icon flex items-center gap-1">
+                            <div class="icon items-center gap-1 hidden md:flex">
                                 <span
                                     class="material-symbols-outlined hover:text-[#209AED] hover:cursor-pointer p-2 hover:bg-[#b5d6ed] hover:rounded-full">bar_chart</span><span>23K</span>
                             </div>
@@ -382,4 +382,3 @@
 </body>
 
 </html>
-
